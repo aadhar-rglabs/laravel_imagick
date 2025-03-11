@@ -84,3 +84,13 @@ https://packagist.org/packages/aadha/laravel_imagick
 Composer Installation :
 composer require aadha/laravel_imagick
 ```
+
+6.
+```
+"require": {
+    "php": "^7.3|^8.0",
+    "ext-imagick": "*",
+    "illuminate/support": "^8.0|^9.0|^10.0",
+    "aadha/laravel_imagick": "dev-main"
+}
+```
