@@ -22,7 +22,7 @@ composer update
 <?php
 'providers' => [
     // ...existing code...
-    Aadha\LaravelImagick\ImagickServiceProvider::class,
+    Aadhar\LaravelImagick\ImagickServiceProvider::class,
 ],
 ```
 
@@ -32,7 +32,7 @@ composer update
 <?php
 'aliases' => [
     // ...existing code...
-    'ImagickService' => Aadha\LaravelImagick\ImagickService::class,
+    'ImagickService' => Aadhar\LaravelImagick\ImagickService::class,
 ],
 ```
 
@@ -40,7 +40,7 @@ Usage
 You can use the ImagickService to process images in your Laravel application. For example, you can create a route in routes/web.php to process an image:
 ```
 <?php
-use Aadha\LaravelImagick\ImagickService;
+use Aadhar\LaravelImagick\ImagickService;
 
 Route::get('/process-image/{path}', function ($path) {
     $imagickService = app('imagick');
@@ -56,7 +56,7 @@ Here is an example of how to use the ImagickService in a controller:
 <?php
 namespace App\Http\Controllers;
 
-use Aadha\LaravelImagick\ImagickService;
+use Aadhar\LaravelImagick\ImagickService;
 use Illuminate\Http\Request;
 
 class ImageController extends Controller
