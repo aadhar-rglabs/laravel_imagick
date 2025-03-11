@@ -9,7 +9,7 @@ Processes an image using Imagick in a Laravel application.
 ```json
 {
     "require": {
-        "aadha/laravel_imagick": "dev-main"
+        "aadha/laravel_imagick": "dev-master"
     }
 }
 ```
