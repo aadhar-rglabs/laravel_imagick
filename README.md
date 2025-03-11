@@ -75,3 +75,12 @@ class ImageController extends Controller
     }
 }
 ```
+
+5.
+```
+Packagist :
+https://packagist.org/packages/aadha/laravel_imagick
+
+Composer Installation :
+composer require aadha/laravel_imagick
+```
