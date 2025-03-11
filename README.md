@@ -76,7 +76,7 @@ class ImageController extends Controller
 }
 ```
 
-5.
+5. Packagist / Composer installation
 ```
 Packagist :
 https://packagist.org/packages/aadha/laravel_imagick
@@ -85,7 +85,7 @@ Composer Installation :
 composer require aadha/laravel_imagick
 ```
 
-6.
+6. Minimum Requirement
 ```
 "require": {
     "php": "^7.3|^8.0",
