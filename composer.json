@@ -1,0 +1,32 @@
+{
+    "name": "aadha/laravel_imagick",
+    "description": "Processes an image using Imagick.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Aadhar\\LaravelImagick\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aadhar Gaur",
+            "email": "aadhar.g@rglabs.net"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Aadhar\\LaravelImagick\\ImagickServiceProvider"
+            ],
+            "aliases": {
+                "ImagickService": "Aadhar\\LaravelImagick\\ImagickService"
+            }
+        }
+    },
+    "require": {
+        "php": "^7.3|^8.0",
+        "ext-imagick": "*",
+        "illuminate/support": "^8.0|^9.0|^10.0",
+        "aadha/laravel_imagick": "dev-main"
+    }
+}
